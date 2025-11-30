@@ -26,7 +26,7 @@ def home():
 @app.route('/about')
 def about():
     """About page route."""
-    return "I am still working on this"
+    return render_template("about.html")
 
 
 @app.route('/search', methods=['POST', 'GET'])
