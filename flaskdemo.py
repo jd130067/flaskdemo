@@ -1,3 +1,10 @@
+"""
+I would like to note that searching "hell" seems to be the worst possible thing it gives me the funniest chain of
+exceptions where it just constantly says that it raised another exception trying to handle the above one then reprints
+every relevant article (and exception) it found AND ALL OF THEM WERE RELATED TO HILLS OMG THIS IS TOO GOOD I LOVE IT
+I want a button to do this in the html page, but it naturally just causes a server error :(
+"""
+
 from flask import Flask, render_template, request, redirect, url_for, session
 import wikipedia
 
